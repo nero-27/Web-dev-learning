@@ -1,0 +1,151 @@
+
+.profile-img {
+    display: flex;    
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header > .text {
+    margin-left: 1em;
+}
+
+.intro-section{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    gap: 3em;
+    background-color: #F1F6F9;
+    padding: 5em;
+}
+
+.heading {
+    display: flex;
+    padding-top: 4rem;
+    width: 40vh;
+    height: fit-content;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills-section {
+    background-color: #9BA4B5;
+    height: 35vh;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.skills > .text {
+    padding: 1em;
+    font-weight: 600;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+}
+
+.skill-item {
+    background-color: #F1F6F9;
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    background-color: #212A3E;
+    padding-left: 1em;
+    color: #F1F6F9;
+}
+
+.project-section {
+    background-color: #9BA4B5;
+    height: 65vh;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.card-body {
+    background-color: #F1F6F9;
+}
+
+.btn-dark {
+    background-color: #394867 !important;
+    border-color: #394867 !important;
+}
+
+.btn-dark:hover{
+    background-color: #6a7ea5 !important;
+}
+
+.card {
+    border-radius: 40% !important;
+}
+
+.footer-container {
+    background-color: #212A3E;
+}
+
+.footer-text {
+    color: #F1F6F9 !important;
+}
+
+.svg-img {
+    color: #F1F6F9 !important;
+}
+
+@media (max-width: 1000px) {
+    .intro-section {
+        display: block;
+        height: 70vh;
+    }
+
+    .profile-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        height: 15em;
+        padding: 1em;
+    }
+
+    .heading {
+        display: block;
+        padding-left: 1em;
+        width: 100%;
+    }
+
+    .skills-section {
+        height: 45vh;
+    }
+
+    .project-section {
+        height: 160vh;
+    }
+}
